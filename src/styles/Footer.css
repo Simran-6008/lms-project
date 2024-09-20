@@ -3,6 +3,9 @@
     text-align: center;
     padding: 40px;
     background-color: rgb(247, 222, 230);
+    position: absolute;
+    bottom: 0;
+    left: 0;
     /* height: 200px; */
 }
 

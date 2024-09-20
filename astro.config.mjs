@@ -13,21 +13,10 @@ export default defineConfig({
 			},
 			// Set English as the default language for this site.
 			defaultLocale: 'en',
-			locales: {
-				// English docs in `src/content/docs/en/`
-				en: {
-					label: 'English',
-				},
-				// Simplified Chinese docs in `src/content/docs/zh-cn/`
-				'hindi': {
-					label: 'Hindi',
-					lang: 'hindi',
-				},
-			},
 			sidebar: [
 				{ label: 'Dr. Racket', autogenerate: { directory: 'racket/' } },
 				{ label: 'Front-end', autogenerate: { directory: 'html' } },
-				{ label: 'Umang', autogenerate: { directory: 'umang' } },
+				{ label: 'Pehalwaani', autogenerate: { directory: 'umang' } },
 				{ label: 'CSS', autogenerate: { directory: 'css' } },
 			],
 			components: {

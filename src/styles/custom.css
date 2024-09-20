@@ -24,17 +24,15 @@
     margin: auto;
 } */
 
-#footer-container{
-    position: absolute;
-    left: 0px;
+
+body{
+    background-color: rgb(254, 231, 234);
 }
-body  {
     /* background-image: url("src/assets/b2.jpeg"); */
-    background-color: #fef5f5;
+    
     /* background-repeat: no-repeat; Prevent the image from repeating */
     /* background-size: cover; Adjusts the image to cover the entire background */
 
-  }
 
 .notComplete::after {
     content: '\2757'; /* Unicode for empty checkbox */
